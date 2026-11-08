@@ -1,0 +1,43 @@
+# v2-recipe ablation: single_path
+# Same as v2_hf_rescaled.yaml except for the component this ablation removes.
+# Rationale (measured 2026-07-02 on 16 canonical eval pairs with the trained
+# default checkpoint): raw hf_stroke ~ 1.2e-6 vs style loss ~ 1.3, so at
+# w_hf_stroke=1.0 the stroke term contributed ~1e-6 of the objective and was
+# effectively inactive. 2.0e+5 brings its contribution to ~0.2-0.5 at
+# convergence (a modest fraction of the style term) so the stroke supervision
+# actually shapes training. Single-variable change for a clean comparison.
+
+data:
+  content_dir: ./datasets/coco/train2017
+  style_dir:   ./datasets/wikiart
+  img_size: 224
+  num_workers: 0
+
+model:
+  embed_dim: 256
+  heads: 4
+  pretrained_vgg: true
+  freq_decouple: false
+  use_gate: true
+
+loss:
+  w_content: 1.0
+  w_style: 3.0
+  w_identity1: 10.0
+  w_identity2: 1.0
+  w_hf_stroke: 2.0e+5   # was 1.0 (inactive); see rationale above
+  use_identity: true
+
+train:
+  batch_size: 1
+  accum_steps: 4
+  lr: 1.0e-4
+  lr_decay: 5.0e-5
+  max_iters: 80000
+  amp: true
+  clip_grad_norm: 1.0
+  log_every: 100
+  sample_every: 1000
+  ckpt_every: 5000
+  save_dir: ./experiments/fdformer_v2_single_path
+

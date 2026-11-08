@@ -1,0 +1,14 @@
+{
+  "variant": "single_path",
+  "seed": 2,
+  "iters": 80000,
+  "train_seconds": 18562.412521600723,
+  "torch": "2.11.0+cu128",
+  "config": "configs/v2_single_path.yaml",
+  "alpha_1.0": {
+    "images": 1000,
+    "artfid": 146.31448364257812,
+    "lpips_c": 0.5300241950452328,
+    "style_dist": 1.7102332610114244
+  }
+}

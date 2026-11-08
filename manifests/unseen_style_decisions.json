@@ -1,0 +1,90 @@
+{
+  "AdaAttN/datasets/styles/20200428220829.jpg": {
+    "same_artwork_as": "Expressionism\\edvard-munch_the-scream-1910.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "AdaAttN/datasets/styles/3314.jpg": {
+    "same_artwork_as": "Art_Nouveau_Modern\\felix-vallotton_self-portrait-1895.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "AdaAttN/datasets/styles/feathers.jpg": {
+    "same_artwork_as": null,
+    "reason": "nearest training images are different works"
+  },
+  "AdaAttN/datasets/styles/rain_princess.jpg": {
+    "same_artwork_as": null,
+    "reason": "nearest training images are different works; the work is not found by file name"
+  },
+  "AdaAttN/datasets/styles/udnie.jpg": {
+    "same_artwork_as": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "AdaAttN/datasets/styles/wave.jpg": {
+    "same_artwork_as": null,
+    "reason": "nearest training images are other Hokusai prints, not this one; not found by file name"
+  },
+  "MicroAST/inputs/style/1.jpg": {
+    "same_artwork_as": null,
+    "reason": "nearest training images are different works"
+  },
+  "SANET/style/1.jpg": {
+    "same_artwork_as": "Post_Impressionism\\vincent-van-gogh_the-starry-night-1888-2.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SANET/style/Composition-VII.jpg": {
+    "same_artwork_as": null,
+    "reason": "nearest training images include another Kandinsky, not this one; not found by file name"
+  },
+  "SANET/style/Starry.jpg": {
+    "same_artwork_as": "Pop_Art\\robert-silvers_starry-night-2002.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SANET/style/candy.jpg": {
+    "same_artwork_as": null,
+    "reason": "nearest training images are different works"
+  },
+  "SANET/style/la_muse.jpg": {
+    "same_artwork_as": "Cubism\\pablo-picasso_a-muse-1935.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SANET/style/rain_princess.jpg": {
+    "same_artwork_as": "candidate AdaAttN/datasets/styles/rain_princess.jpg",
+    "reason": "same artwork as another candidate (cosine 1.000); one copy is kept"
+  },
+  "SANET/style/seated_nude.jpg": {
+    "same_artwork_as": "Analytical_Cubism/pablo-picasso_seated-female-nude-1910.jpg",
+    "reason": "same painting as its nearest VGG neighbour (cosine 0.955); the thumbnail check missed it because the two copies differ in crop and colour"
+  },
+  "SANET/style/style11.jpg": {
+    "same_artwork_as": "Abstract_Expressionism/willem-de-kooning_asheville(1).jpg",
+    "reason": "same painting as its nearest VGG neighbour (cosine 0.979)"
+  },
+  "SANET/style/udnie.jpg": {
+    "same_artwork_as": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SANET/style/wave.jpg": {
+    "same_artwork_as": "candidate AdaAttN/datasets/styles/wave.jpg",
+    "reason": "same artwork as another candidate (cosine 0.989); one copy is kept"
+  },
+  "SANET/style/wreck.jpg": {
+    "same_artwork_as": "Romanticism\\william-turner_shipwreck.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SaMam/TEST/test_images/style/style_02.jpg": {
+    "same_artwork_as": "Fauvism\\henri-matisse_woman-with-hat-1905.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SaMam/TEST/test_images/style/style_03.jpg": {
+    "same_artwork_as": "Analytical_Cubism\\pablo-picasso_seated-female-nude-1910.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SaMam/TEST/test_images/style/style_04.jpg": {
+    "same_artwork_as": "Expressionism\\pablo-picasso_self-portrait-1907.jpg",
+    "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85"
+  },
+  "SaMam/TEST/test_images/style/style_05.jpg": {
+    "same_artwork_as": "Cubism/pablo-picasso_a-muse-1935.jpg",
+    "reason": "same painting as its nearest VGG neighbour (cosine 0.988)"
+  }
+}

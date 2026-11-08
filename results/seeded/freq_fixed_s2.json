@@ -1,0 +1,20 @@
+{
+  "variant": "freq_fixed",
+  "seed": 2,
+  "iters": 80000,
+  "train_seconds": 21538.15856575966,
+  "torch": "2.11.0+cu128",
+  "config": "configs/v2_freq_fixed.yaml",
+  "alpha_1.0": {
+    "images": 1000,
+    "artfid": 144.64480590820312,
+    "lpips_c": 0.5284328870028258,
+    "style_dist": 1.626472212798195
+  },
+  "alpha_1.4": {
+    "images": 1000,
+    "artfid": 140.73805236816406,
+    "lpips_c": 0.5568034177869559,
+    "style_dist": 1.552096495060483
+  }
+}

@@ -1,0 +1,48 @@
+# v3: identical to v2_hf_rescaled.yaml except that the two blend coefficients
+# are sampled during training instead of being fixed at 1.
+#
+# Rationale (measured on the v2 checkpoint, 300 benchmark pairs): with the
+# coefficients fixed at 1 throughout training, the decoder only ever renders one
+# point of the family it is supposed to expose. At inference the stroke
+# coefficient then moves the image almost not at all inside its usable range, and
+# amplifying it degrades the output rather than adding brushwork (stroke energy
+# 0.80 -> 0.02 as alpha_high goes 0 -> 16). The coefficients are out of
+# distribution. Sampling them during training is the single change made here.
+
+data:
+  content_dir: ./datasets/coco/train2017
+  style_dir:   ./datasets/wikiart
+  img_size: 224
+  num_workers: 0
+
+model:
+  embed_dim: 256
+  heads: 4
+  pretrained_vgg: true
+  freq_decouple: true
+  use_gate: true
+
+loss:
+  w_content: 1.0
+  w_style: 3.0
+  w_identity1: 10.0
+  w_identity2: 1.0
+  w_hf_stroke: 2.0e+5   # was 1.0 (inactive); see rationale above
+  use_identity: true
+
+train:
+  batch_size: 1
+  accum_steps: 4
+  lr: 1.0e-4
+  lr_decay: 5.0e-5
+  max_iters: 80000
+  amp: true
+  clip_grad_norm: 1.0
+  log_every: 100
+  sample_every: 1000
+  ckpt_every: 5000
+  alpha_sampling:
+    enabled: true
+    range: [0.25, 1.75]
+    nominal_prob: 0.25
+  save_dir: ./experiments/fdformer_v3_alpha

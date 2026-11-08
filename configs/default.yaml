@@ -1,0 +1,36 @@
+# FDFormer default config, sized for a single laptop GPU (6-8 GB VRAM).
+# Increase img_size / batch_size / embed_dim if you have more memory.
+
+data:
+  content_dir: ./datasets/coco/train2017      # MS-COCO images
+  style_dir:   ./datasets/wikiart             # WikiArt images (organized by style)
+  img_size: 224          # 4GB-safe training crop (identity loss needs memory); inference any size
+  num_workers: 0
+
+model:
+  embed_dim: 256         # attention embedding dim (small for laptop)
+  heads: 4
+  pretrained_vgg: true   # uses ImageNet VGG-19 weights (downloaded once)
+  freq_decouple: true    # two frequency branches; false = single-path ablation
+  use_gate: true         # content-adaptive gate; false = no-gate ablation
+
+loss:
+  w_content: 1.0
+  w_style: 3.0
+  w_identity1: 10.0      # image-space identity (StyTr2-style); reduced from 50 to prevent NaN
+  w_identity2: 1.0
+  w_hf_stroke: 1.0       # high-frequency Gram loss
+  use_identity: true     # ON: StyTr2-style realism/content anchor
+
+train:
+  batch_size: 1          # 4GB-safe per-step batch
+  accum_steps: 4         # effective batch = batch_size*accum_steps = 4
+  lr: 1.0e-4
+  lr_decay: 5.0e-5
+  max_iters: 80000
+  amp: true              # mixed precision - saves VRAM (needed at 4GB)
+  clip_grad_norm: 1.0    # gradient clipping to prevent NaN/explosion
+  log_every: 100
+  sample_every: 1000
+  ckpt_every: 5000
+  save_dir: ./experiments/fdformer_default

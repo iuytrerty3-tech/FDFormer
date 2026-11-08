@@ -1,0 +1,20 @@
+{
+  "variant": "two_branch_equal",
+  "seed": 0,
+  "iters": 80000,
+  "train_seconds": 33464.75772380829,
+  "torch": "2.11.0+cu128",
+  "config": "configs/v2_two_branch_equal.yaml",
+  "alpha_1.0": {
+    "images": 1000,
+    "artfid": 145.19500732421875,
+    "lpips_c": 0.5342001855075359,
+    "style_dist": 1.8172681428716169
+  },
+  "alpha_1.4": {
+    "images": 1000,
+    "artfid": 140.37828063964844,
+    "lpips_c": 0.5560341685861349,
+    "style_dist": 1.5792159573120297
+  }
+}

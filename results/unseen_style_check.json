@@ -1,0 +1,780 @@
+{
+  "threshold_thumbnail": 0.85,
+  "training_images": 82407,
+  "candidate_files": 22,
+  "distinct": 22,
+  "styles": [
+    {
+      "file": "AdaAttN/datasets/styles/20200428220829.jpg",
+      "sha256": "90fbd175e4eb73ba8d5c001211b633d48d3557bc74e6765b49935386b88de1d8",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9966835975646973,
+      "thumbnail_nearest": "Expressionism\\edvard-munch_the-scream-1910.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Expressionism\\edvard-munch_the-scream-1910.jpg",
+          "cosine": 0.9983706474304199
+        },
+        {
+          "image": "Expressionism\\edvard-munch_the-scream-1893(1).jpg",
+          "cosine": 0.9579922556877136
+        },
+        {
+          "image": "Expressionism\\edvard-munch_friedrich-nietzsche-1906(1).jpg",
+          "cosine": 0.9553759098052979
+        },
+        {
+          "image": "Post_Impressionism\\panayiotis-tetsis_slain-1955.jpg",
+          "cosine": 0.9495940804481506
+        },
+        {
+          "image": "Expressionism\\edvard-munch_the-hands-1893.jpg",
+          "cosine": 0.9495364427566528
+        }
+      ],
+      "nearest_other_candidate": "SaMam/TEST/test_images/style/style_02.jpg",
+      "nearest_other_candidate_cosine": 0.9273564219474792,
+      "auto_drop": true,
+      "same_artwork_as": "Expressionism\\edvard-munch_the-scream-1910.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "AdaAttN/datasets/styles/3314.jpg",
+      "sha256": "934169b5983315b0400975a335217e677a26654bb2ec14c292968b9f641b5b44",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9981045126914978,
+      "thumbnail_nearest": "Art_Nouveau_Modern\\felix-vallotton_self-portrait-1895.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Art_Nouveau_Modern\\felix-vallotton_self-portrait-1895.jpg",
+          "cosine": 0.9985146522521973
+        },
+        {
+          "image": "Art_Nouveau_Modern\\felix-vallotton_portrait-of-french-bishop-georges-darboy-1897.jpg",
+          "cosine": 0.9801342487335205
+        },
+        {
+          "image": "Art_Nouveau_Modern\\felix-vallotton_portrait-of-communard-raoul-rigault-1897.jpg",
+          "cosine": 0.9783246517181396
+        },
+        {
+          "image": "Art_Nouveau_Modern\\felix-vallotton_portrait-of-french-writer-camille-mauclair-1898.jpg",
+          "cosine": 0.9769683480262756
+        },
+        {
+          "image": "Art_Nouveau_Modern\\felix-vallotton_portrait-of-french-poet-jules-laforgue-1898.jpg",
+          "cosine": 0.9767541885375977
+        }
+      ],
+      "nearest_other_candidate": "AdaAttN/datasets/styles/wave.jpg",
+      "nearest_other_candidate_cosine": 0.8954925537109375,
+      "auto_drop": true,
+      "same_artwork_as": "Art_Nouveau_Modern\\felix-vallotton_self-portrait-1895.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "AdaAttN/datasets/styles/feathers.jpg",
+      "sha256": "3455fda4038fa3216d6a439cc1430a2e02ea3ccce65693f1b40f44797a861252",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.33904606103897095,
+      "thumbnail_nearest": "Impressionism\\claude-monet_wisteria-right-half-1920.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Art_Nouveau_Modern\\leon-bakst_operatic-costume-designs-1911.jpg",
+          "cosine": 0.948033332824707
+        },
+        {
+          "image": "Cubism\\rafael-zabaleta_peasants-1952.jpg",
+          "cosine": 0.9473010301589966
+        },
+        {
+          "image": "Abstract_Expressionism\\frank-stella_the-waves-i-hark-1989.jpg",
+          "cosine": 0.9465276002883911
+        },
+        {
+          "image": "Expressionism\\franz-marc_nude-lying-in-the-flowers-1910.jpg",
+          "cosine": 0.9464071989059448
+        },
+        {
+          "image": "Cubism\\andre-masson_no-name-1(3).jpg",
+          "cosine": 0.9441912770271301
+        }
+      ],
+      "nearest_other_candidate": "SaMam/TEST/test_images/style/style_05.jpg",
+      "nearest_other_candidate_cosine": 0.9229340553283691,
+      "auto_drop": false,
+      "same_artwork_as": null,
+      "reason": "nearest training images are different works",
+      "kept": true
+    },
+    {
+      "file": "AdaAttN/datasets/styles/rain_princess.jpg",
+      "sha256": "5ef9bc2cc246d096121a083736a1409ea0c0f4a10872f8362b5060426d715e64",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.58315110206604,
+      "thumbnail_nearest": "Rococo\\joshua-reynolds_the-strawberry-girl-1777.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Realism\\vladimir-makovsky_waiting-for-an-audience-1904.jpg",
+          "cosine": 0.9583433866500854
+        },
+        {
+          "image": "Art_Nouveau_Modern\\boris-kustodiev_paris-boulevard-at-night-1913.jpg",
+          "cosine": 0.9442756175994873
+        },
+        {
+          "image": "Post_Impressionism\\maurice-prendergast_paris-omnibus.jpg",
+          "cosine": 0.9441540837287903
+        },
+        {
+          "image": "Expressionism\\pyotr-konchalovsky_set-decor-for-opera-carmen-by-georges-bizet-1944.jpg",
+          "cosine": 0.9440344572067261
+        },
+        {
+          "image": "Impressionism\\childe-hassam_the-room-of-flowers.jpg",
+          "cosine": 0.9437172412872314
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/rain_princess.jpg",
+      "nearest_other_candidate_cosine": 0.9998016357421875,
+      "auto_drop": false,
+      "same_artwork_as": null,
+      "reason": "nearest training images are different works; the work is not found by file name",
+      "kept": true
+    },
+    {
+      "file": "AdaAttN/datasets/styles/udnie.jpg",
+      "sha256": "71728ab8da683b3289d3787a89430e9c01061343cf2b989ef1728187bbf60b84",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.8615726232528687,
+      "thumbnail_nearest": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+          "cosine": 0.9938880801200867
+        },
+        {
+          "image": "Cubism\\francis-picabia_edtaonisl-ecclesiastic.jpg",
+          "cosine": 0.9682220220565796
+        },
+        {
+          "image": "Cubism\\jean-metzinger_still-life-playing-cards-coffee-cup-and-apples-1917.jpg",
+          "cosine": 0.9643961787223816
+        },
+        {
+          "image": "Cubism\\jean-metzinger_femme-assise-en-robe-bleue-1950.jpg",
+          "cosine": 0.9642910957336426
+        },
+        {
+          "image": "Cubism\\franz-marc_the-first-animals-1913.jpg",
+          "cosine": 0.9630022644996643
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/udnie.jpg",
+      "nearest_other_candidate_cosine": 0.999631404876709,
+      "auto_drop": true,
+      "same_artwork_as": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "AdaAttN/datasets/styles/wave.jpg",
+      "sha256": "3405cf91ff66048304dfbd6284fc24341d0488ebf395d97cc77323f9580e0c61",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.6333720684051514,
+      "thumbnail_nearest": "Post_Impressionism\\janos-tornyai_woman-with-goat.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Ukiyo_e\\katsushika-hokusai_asakusa-honganji-temple-in-th-eastern-capital.jpg",
+          "cosine": 0.9443074464797974
+        },
+        {
+          "image": "Ukiyo_e\\katsushika-hokusai_a-colored-version-of-the-big-wave.jpg",
+          "cosine": 0.9438835978507996
+        },
+        {
+          "image": "Naive_Art_Primitivism\\marc-chagall_the-yellow-rooster-1960.jpg",
+          "cosine": 0.9410882592201233
+        },
+        {
+          "image": "Ukiyo_e\\utagawa-kuniyoshi_women-16.jpg",
+          "cosine": 0.9404647946357727
+        },
+        {
+          "image": "Ukiyo_e\\utagawa-kuniyoshi_women-15.jpg",
+          "cosine": 0.9404647946357727
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/wave.jpg",
+      "nearest_other_candidate_cosine": 0.9890204668045044,
+      "auto_drop": false,
+      "same_artwork_as": null,
+      "reason": "nearest training images are other Hokusai prints, not this one; not found by file name",
+      "kept": true
+    },
+    {
+      "file": "MicroAST/inputs/style/1.jpg",
+      "sha256": "6c77d53b9b29c652c955e3635a6da74f384a83726e6a3ab62ac44e299b913f9b",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.5170933604240417,
+      "thumbnail_nearest": "Color_Field_Painting\\jose-guerrero_aparici-n-y-sombras.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Cubism\\auguste-herbin_landscape-in-ceret-1913.jpg",
+          "cosine": 0.9485689401626587
+        },
+        {
+          "image": "Expressionism\\franz-kline_chatham-square-1948.jpg",
+          "cosine": 0.9473696947097778
+        },
+        {
+          "image": "Abstract_Expressionism\\willem-de-kooning_study-for-backdrop.jpg",
+          "cosine": 0.946308970451355
+        },
+        {
+          "image": "Abstract_Expressionism\\frank-stella_estoril-five-ii-from-the-circuits-series-1982.jpg",
+          "cosine": 0.9451396465301514
+        },
+        {
+          "image": "Abstract_Expressionism\\gerhard-richter_station.jpg",
+          "cosine": 0.9444328546524048
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/la_muse.jpg",
+      "nearest_other_candidate_cosine": 0.9137933254241943,
+      "auto_drop": false,
+      "same_artwork_as": null,
+      "reason": "nearest training images are different works",
+      "kept": true
+    },
+    {
+      "file": "SANET/style/1.jpg",
+      "sha256": "3669d17642c67d8cee2d32528b699bb50f44589ccda62a6c80ac25e2a41ac97b",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9795886278152466,
+      "thumbnail_nearest": "Post_Impressionism\\vincent-van-gogh_the-starry-night-1888-2.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Post_Impressionism\\vincent-van-gogh_the-starry-night-1888-2.jpg",
+          "cosine": 0.99375319480896
+        },
+        {
+          "image": "Impressionism\\childe-hassam_broadway-and-42nd-street.jpg",
+          "cosine": 0.9373447895050049
+        },
+        {
+          "image": "Impressionism\\gustave-caillebotte_sunflowers-on-the-banks-of-the-seine.jpg",
+          "cosine": 0.9358257055282593
+        },
+        {
+          "image": "Post_Impressionism\\vincent-van-gogh_avenue-with-flowering-chestnut-trees-at-arles-1889(1).jpg",
+          "cosine": 0.9341214895248413
+        },
+        {
+          "image": "Realism\\ilya-repin_female-figure-in-a-landscape-1883.jpg",
+          "cosine": 0.9316867589950562
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/Starry.jpg",
+      "nearest_other_candidate_cosine": 0.9100040793418884,
+      "auto_drop": true,
+      "same_artwork_as": "Post_Impressionism\\vincent-van-gogh_the-starry-night-1888-2.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/Composition-VII.jpg",
+      "sha256": "449c56e3e1e90cb2c008d326ab22da36b38e27dd0c01a5511f5c404a4d40e2f8",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.4939652383327484,
+      "thumbnail_nearest": "Romanticism\\john-william-waterhouse_miranda-1875.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Expressionism\\wassily-kandinsky_angel-of-the-last-judgment-1911.jpg",
+          "cosine": 0.9652807712554932
+        },
+        {
+          "image": "Fauvism\\othon-friesz_bec-de-l-aigle-la-ciotat-1907.jpg",
+          "cosine": 0.963890552520752
+        },
+        {
+          "image": "Naive_Art_Primitivism\\marc-chagall_the-circus-1964.jpg",
+          "cosine": 0.9628086090087891
+        },
+        {
+          "image": "Naive_Art_Primitivism\\maurice-prendergast_figures-in-a-landscape.jpg",
+          "cosine": 0.9619792103767395
+        },
+        {
+          "image": "Fauvism\\endre-bartos_hungarian-gipsies-1972.jpg",
+          "cosine": 0.9609142541885376
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/style11.jpg",
+      "nearest_other_candidate_cosine": 0.929581344127655,
+      "auto_drop": false,
+      "same_artwork_as": null,
+      "reason": "nearest training images include another Kandinsky, not this one; not found by file name",
+      "kept": true
+    },
+    {
+      "file": "SANET/style/Starry.jpg",
+      "sha256": "ad9a57f44397d16b00cdc41a6d0428cd7681e0b472516406b64c8e76b2dec058",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9288285970687866,
+      "thumbnail_nearest": "Pop_Art\\robert-silvers_starry-night-2002.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Post_Impressionism\\vincent-van-gogh_the-starry-night-1889(1).jpg",
+          "cosine": 0.9795808792114258
+        },
+        {
+          "image": "Post_Impressionism\\henri-de-toulouse-lautrec_seated-woman-in-the-garden-of-mr-forest-justine-dieuhl-1890.jpg",
+          "cosine": 0.952153742313385
+        },
+        {
+          "image": "Post_Impressionism\\vincent-van-gogh_the-church-at-auvers-1890.jpg",
+          "cosine": 0.9477068781852722
+        },
+        {
+          "image": "Post_Impressionism\\vincent-van-gogh_daubigny-s-garden-1890(1).jpg",
+          "cosine": 0.947234570980072
+        },
+        {
+          "image": "Post_Impressionism\\david-burliuk_fishermen.jpg",
+          "cosine": 0.9452062845230103
+        }
+      ],
+      "nearest_other_candidate": "SaMam/TEST/test_images/style/style_02.jpg",
+      "nearest_other_candidate_cosine": 0.910883903503418,
+      "auto_drop": true,
+      "same_artwork_as": "Pop_Art\\robert-silvers_starry-night-2002.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/candy.jpg",
+      "sha256": "808ea217dd455276852771b42dcdb1c8b25b789fe841726ed875489ef7493322",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.4392911195755005,
+      "thumbnail_nearest": "Rococo\\allan-ramsay_norman-the-red-man-22nd-chief-of-macleod.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Naive_Art_Primitivism\\maria-primachenko_fairy-bird-peacock-1936.jpg",
+          "cosine": 0.9548794031143188
+        },
+        {
+          "image": "Naive_Art_Primitivism\\martiros-saryan_armenian-woman-with-ba-lam-1915.jpg",
+          "cosine": 0.9485461711883545
+        },
+        {
+          "image": "Expressionism\\martiros-saryan_fruits-and-vegetables-1934.jpg",
+          "cosine": 0.946781575679779
+        },
+        {
+          "image": "Pop_Art\\tsuruko-yamazaki_untitled-1963-1.jpg",
+          "cosine": 0.9462828636169434
+        },
+        {
+          "image": "Expressionism\\amadeo-de-souza-cardoso_popular-song-bird-and-brazil-1916.jpg",
+          "cosine": 0.9457316994667053
+        }
+      ],
+      "nearest_other_candidate": "SaMam/TEST/test_images/style/style_05.jpg",
+      "nearest_other_candidate_cosine": 0.9220015406608582,
+      "auto_drop": false,
+      "same_artwork_as": null,
+      "reason": "nearest training images are different works",
+      "kept": true
+    },
+    {
+      "file": "SANET/style/la_muse.jpg",
+      "sha256": "fba41c0a11e878b8f7e6a9518a2871b58512f08212e3efa0d7026ad01176818b",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9964367151260376,
+      "thumbnail_nearest": "Cubism\\pablo-picasso_a-muse-1935.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Cubism\\pablo-picasso_a-muse-1935.jpg",
+          "cosine": 0.9994784593582153
+        },
+        {
+          "image": "Cubism\\pablo-picasso_interior-with-girl-drawing-1956.jpg",
+          "cosine": 0.9781842231750488
+        },
+        {
+          "image": "Cubism\\pablo-picasso_skull-and-leeks-1945.jpg",
+          "cosine": 0.9650575518608093
+        },
+        {
+          "image": "Fauvism\\raoul-dufy_boats-at-martigues-1908.jpg",
+          "cosine": 0.9633182287216187
+        },
+        {
+          "image": "Expressionism\\walter-battiss_yellow-afternoon.jpg",
+          "cosine": 0.9610711336135864
+        }
+      ],
+      "nearest_other_candidate": "SaMam/TEST/test_images/style/style_05.jpg",
+      "nearest_other_candidate_cosine": 0.9872336387634277,
+      "auto_drop": true,
+      "same_artwork_as": "Cubism\\pablo-picasso_a-muse-1935.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/rain_princess.jpg",
+      "sha256": "5e7652f81bc4b71540ed17e01808c6c462272d067c9536a307a3984d2df035d7",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.5834353566169739,
+      "thumbnail_nearest": "Rococo\\joshua-reynolds_the-strawberry-girl-1777.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Realism\\vladimir-makovsky_waiting-for-an-audience-1904.jpg",
+          "cosine": 0.9576318264007568
+        },
+        {
+          "image": "Art_Nouveau_Modern\\boris-kustodiev_paris-boulevard-at-night-1913.jpg",
+          "cosine": 0.9441184997558594
+        },
+        {
+          "image": "Post_Impressionism\\maurice-prendergast_paris-omnibus.jpg",
+          "cosine": 0.9439370036125183
+        },
+        {
+          "image": "Expressionism\\candido-portinari_coffee-harvest-1958.jpg",
+          "cosine": 0.9436932802200317
+        },
+        {
+          "image": "Abstract_Expressionism\\gerhard-richter_abstract-picture-1.jpg",
+          "cosine": 0.9434465169906616
+        }
+      ],
+      "nearest_other_candidate": "AdaAttN/datasets/styles/rain_princess.jpg",
+      "nearest_other_candidate_cosine": 0.9998016357421875,
+      "auto_drop": false,
+      "same_artwork_as": "candidate AdaAttN/datasets/styles/rain_princess.jpg",
+      "reason": "same artwork as another candidate (cosine 1.000); one copy is kept",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/seated_nude.jpg",
+      "sha256": "92de539d51a15db497dd46202d4c28c1fddb79ba13ee5206126a208fbed53240",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.5686845779418945,
+      "thumbnail_nearest": "Analytical_Cubism\\pablo-picasso_seated-female-nude-1910.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Analytical_Cubism\\pablo-picasso_seated-female-nude-1910.jpg",
+          "cosine": 0.95525062084198
+        },
+        {
+          "image": "Cubism\\christian-schad_portrait-de-walter-serner-1916.jpg",
+          "cosine": 0.9534317255020142
+        },
+        {
+          "image": "Analytical_Cubism\\georges-braque_the-city-on-the-hill-1909.jpg",
+          "cosine": 0.9531019926071167
+        },
+        {
+          "image": "Cubism\\roger-bissi\u0393\u00f6\u00a3\u2568\u2502\u0393\u00f6\u00bc\u2568\u2555re_la-guitare.jpg",
+          "cosine": 0.9530264735221863
+        },
+        {
+          "image": "Cubism\\roger-bissi\u9239\u6e9e\u65a5\u6569\u61c8re_la-guitare.jpg",
+          "cosine": 0.9530264735221863
+        }
+      ],
+      "nearest_other_candidate": "SaMam/TEST/test_images/style/style_03.jpg",
+      "nearest_other_candidate_cosine": 0.9900346994400024,
+      "auto_drop": false,
+      "same_artwork_as": "Analytical_Cubism/pablo-picasso_seated-female-nude-1910.jpg",
+      "reason": "same painting as its nearest VGG neighbour (cosine 0.955); the thumbnail check missed it because the two copies differ in crop and colour",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/style11.jpg",
+      "sha256": "541f219faf2cecffd059755a5c34a173276e8b4df07183872dcee8101a67df59",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.4289645552635193,
+      "thumbnail_nearest": "Abstract_Expressionism\\willem-de-kooning_asheville(1).jpg",
+      "vgg_nearest": [
+        {
+          "image": "Abstract_Expressionism\\willem-de-kooning_asheville(1).jpg",
+          "cosine": 0.9790596961975098
+        },
+        {
+          "image": "Fauvism\\pyotr-konchalovsky_boats-1918.jpg",
+          "cosine": 0.9619244337081909
+        },
+        {
+          "image": "Abstract_Expressionism\\willem-de-kooning_untitled-1950-1.jpg",
+          "cosine": 0.9605152010917664
+        },
+        {
+          "image": "Abstract_Expressionism\\willem-de-kooning_woman-verso-untitled.jpg",
+          "cosine": 0.9601152539253235
+        },
+        {
+          "image": "Abstract_Expressionism\\willem-de-kooning_woman-1.jpg",
+          "cosine": 0.9596554040908813
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/Composition-VII.jpg",
+      "nearest_other_candidate_cosine": 0.929581344127655,
+      "auto_drop": false,
+      "same_artwork_as": "Abstract_Expressionism/willem-de-kooning_asheville(1).jpg",
+      "reason": "same painting as its nearest VGG neighbour (cosine 0.979)",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/udnie.jpg",
+      "sha256": "45e510d2a53b4167a22bae12a191eea3018f82d74a2fa17b1573adc1e9dfc7f6",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.861473798751831,
+      "thumbnail_nearest": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+          "cosine": 0.9945611953735352
+        },
+        {
+          "image": "Cubism\\francis-picabia_edtaonisl-ecclesiastic.jpg",
+          "cosine": 0.9693253636360168
+        },
+        {
+          "image": "Cubism\\jean-metzinger_still-life-playing-cards-coffee-cup-and-apples-1917.jpg",
+          "cosine": 0.9643083214759827
+        },
+        {
+          "image": "Cubism\\jean-metzinger_femme-assise-en-robe-bleue-1950.jpg",
+          "cosine": 0.96418696641922
+        },
+        {
+          "image": "Cubism\\andr\u00d4\u00f6\u00a3\u00f0\u00a6\u00d4\u00f6\u00bc\u00f0\u00a6-lhote_l-escale-1913.jpg",
+          "cosine": 0.9631492495536804
+        }
+      ],
+      "nearest_other_candidate": "AdaAttN/datasets/styles/udnie.jpg",
+      "nearest_other_candidate_cosine": 0.999631404876709,
+      "auto_drop": true,
+      "same_artwork_as": "Cubism\\francis-picabia_udnie-young-american-girl-1913.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/wave.jpg",
+      "sha256": "d5b09c7581e576afe932f275b9d17320d4cc1223ad001f36416b3809481dffd2",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.6412397623062134,
+      "thumbnail_nearest": "Realism\\franz-marc_portrait-of-the-artist-s-mother-1902.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Ukiyo_e\\katsushika-hokusai_asakusa-honganji-temple-in-th-eastern-capital.jpg",
+          "cosine": 0.948167622089386
+        },
+        {
+          "image": "Ukiyo_e\\katsushika-hokusai_kajikazawa-in-kai-province.jpg",
+          "cosine": 0.9481533765792847
+        },
+        {
+          "image": "Ukiyo_e\\katsushika-hokusai_the-fuji-reflects-in-lake-kawaguchi-seen-from-the-misaka-pass-in-the-kai-province.jpg",
+          "cosine": 0.9468735456466675
+        },
+        {
+          "image": "Ukiyo_e\\utagawa-kuniyoshi_women-16.jpg",
+          "cosine": 0.9457405805587769
+        },
+        {
+          "image": "Ukiyo_e\\utagawa-kuniyoshi_women-15.jpg",
+          "cosine": 0.9457405805587769
+        }
+      ],
+      "nearest_other_candidate": "AdaAttN/datasets/styles/wave.jpg",
+      "nearest_other_candidate_cosine": 0.9890204668045044,
+      "auto_drop": false,
+      "same_artwork_as": "candidate AdaAttN/datasets/styles/wave.jpg",
+      "reason": "same artwork as another candidate (cosine 0.989); one copy is kept",
+      "kept": false
+    },
+    {
+      "file": "SANET/style/wreck.jpg",
+      "sha256": "a48960bfca82dc2c6c1fbbfd05182c440eb13d3e6b8e09f0e09f107af8fc49f7",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9973458647727966,
+      "thumbnail_nearest": "Romanticism\\william-turner_shipwreck.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Romanticism\\william-turner_shipwreck.jpg",
+          "cosine": 0.9974888563156128
+        },
+        {
+          "image": "Romanticism\\thomas-cole_sunny-morning-on-the-hudson-river-1827.jpg",
+          "cosine": 0.9605188369750977
+        },
+        {
+          "image": "Romanticism\\thomas-cole_the-course-of-empire-1836(1).jpg",
+          "cosine": 0.9601768851280212
+        },
+        {
+          "image": "Realism\\ilya-repin_portrait-of-v-v-verevkina-1916.jpg",
+          "cosine": 0.9574421644210815
+        },
+        {
+          "image": "Fauvism\\othon-friesz_sainte-victoire-mountain-1906.jpg",
+          "cosine": 0.9572105407714844
+        }
+      ],
+      "nearest_other_candidate": "SaMam/TEST/test_images/style/style_02.jpg",
+      "nearest_other_candidate_cosine": 0.9178289175033569,
+      "auto_drop": true,
+      "same_artwork_as": "Romanticism\\william-turner_shipwreck.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SaMam/TEST/test_images/style/style_02.jpg",
+      "sha256": "6a8b2383d9c110354a97a42c74bdcc5341be879cbb842ddb7ab5843dbdf56d53",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9997414350509644,
+      "thumbnail_nearest": "Fauvism\\henri-matisse_woman-with-hat-1905.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Fauvism\\henri-matisse_woman-with-hat-1905.jpg",
+          "cosine": 0.9997633695602417
+        },
+        {
+          "image": "Post_Impressionism\\suzanne-valadon_roses-in-a-vase-1914.jpg",
+          "cosine": 0.96889328956604
+        },
+        {
+          "image": "Post_Impressionism\\pierre-bonnard_poppies.jpg",
+          "cosine": 0.9688073396682739
+        },
+        {
+          "image": "Post_Impressionism\\henri-matisse_still-life-with-statuette.jpg",
+          "cosine": 0.9682251214981079
+        },
+        {
+          "image": "Fauvism\\henri-matisse_interior-with-a-girl-reading-1905.jpg",
+          "cosine": 0.968039870262146
+        }
+      ],
+      "nearest_other_candidate": "AdaAttN/datasets/styles/20200428220829.jpg",
+      "nearest_other_candidate_cosine": 0.9273564219474792,
+      "auto_drop": true,
+      "same_artwork_as": "Fauvism\\henri-matisse_woman-with-hat-1905.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SaMam/TEST/test_images/style/style_03.jpg",
+      "sha256": "1abed3eccf5807d04b9fc803033edbd626bd7531c262af7e8d2f1fe3a0bafdea",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.859632670879364,
+      "thumbnail_nearest": "Analytical_Cubism\\pablo-picasso_seated-female-nude-1910.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Cubism\\christian-schad_portrait-de-walter-serner-1916.jpg",
+          "cosine": 0.9588708877563477
+        },
+        {
+          "image": "Analytical_Cubism\\pablo-picasso_seated-female-nude-1910.jpg",
+          "cosine": 0.957313597202301
+        },
+        {
+          "image": "Cubism\\lyonel-feininger_harbor-mole-1913.jpg",
+          "cosine": 0.9572123885154724
+        },
+        {
+          "image": "Cubism\\georges-braque_big-trees-at-estaque-1908.jpg",
+          "cosine": 0.9532023668289185
+        },
+        {
+          "image": "Analytical_Cubism\\georges-braque_the-city-on-the-hill-1909.jpg",
+          "cosine": 0.9529687166213989
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/seated_nude.jpg",
+      "nearest_other_candidate_cosine": 0.9900346994400024,
+      "auto_drop": true,
+      "same_artwork_as": "Analytical_Cubism\\pablo-picasso_seated-female-nude-1910.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SaMam/TEST/test_images/style/style_04.jpg",
+      "sha256": "bc69786e510e41242aa22fcd4044b9d4b6829ed2b61fac09c1c688ffadfbde2a",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.9663891792297363,
+      "thumbnail_nearest": "Expressionism\\pablo-picasso_self-portrait-1907.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Expressionism\\pablo-picasso_self-portrait-1907.jpg",
+          "cosine": 0.9885650873184204
+        },
+        {
+          "image": "Cubism\\pablo-picasso_nude-bust-1907.jpg",
+          "cosine": 0.9572561383247375
+        },
+        {
+          "image": "Naive_Art_Primitivism\\pablo-picasso_nude-bust-1907.jpg",
+          "cosine": 0.9569151401519775
+        },
+        {
+          "image": "Cubism\\georges-braque_big-nude-1908.jpg",
+          "cosine": 0.9548986554145813
+        },
+        {
+          "image": "Cubism\\pablo-picasso_woman-with-a-fan-1907.jpg",
+          "cosine": 0.9530359506607056
+        }
+      ],
+      "nearest_other_candidate": "AdaAttN/datasets/styles/20200428220829.jpg",
+      "nearest_other_candidate_cosine": 0.9177464246749878,
+      "auto_drop": true,
+      "same_artwork_as": "Expressionism\\pablo-picasso_self-portrait-1907.jpg",
+      "reason": "dropped automatically: exact hash match or thumbnail correlation >= 0.85",
+      "kept": false
+    },
+    {
+      "file": "SaMam/TEST/test_images/style/style_05.jpg",
+      "sha256": "ce156dd2e7cec6d7cb098273a31874f87bc6b1497c2400d883f3f6ca5b9582e4",
+      "exact_match": null,
+      "max_thumbnail_corr": 0.7643612027168274,
+      "thumbnail_nearest": "Cubism\\pablo-picasso_a-muse-1935.jpg",
+      "vgg_nearest": [
+        {
+          "image": "Cubism\\pablo-picasso_a-muse-1935.jpg",
+          "cosine": 0.9882745742797852
+        },
+        {
+          "image": "Cubism\\pablo-picasso_interior-with-girl-drawing-1956.jpg",
+          "cosine": 0.9754205346107483
+        },
+        {
+          "image": "Pop_Art\\roy-lichtenstein_blam-1962(1).jpg",
+          "cosine": 0.967292070388794
+        },
+        {
+          "image": "Cubism\\pablo-picasso_a-bullfight-1934.jpg",
+          "cosine": 0.9669796228408813
+        },
+        {
+          "image": "Fauvism\\raoul-dufy_boats-at-martigues-1908.jpg",
+          "cosine": 0.9651293754577637
+        }
+      ],
+      "nearest_other_candidate": "SANET/style/la_muse.jpg",
+      "nearest_other_candidate_cosine": 0.9872336387634277,
+      "auto_drop": false,
+      "same_artwork_as": "Cubism/pablo-picasso_a-muse-1935.jpg",
+      "reason": "same painting as its nearest VGG neighbour (cosine 0.988)",
+      "kept": false
+    }
+  ],
+  "kept": 6,
+  "pairs": 200
+}

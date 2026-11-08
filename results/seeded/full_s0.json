@@ -1,0 +1,20 @@
+{
+  "variant": "full",
+  "seed": 0,
+  "iters": 80000,
+  "train_seconds": 5260.753983974457,
+  "torch": "2.11.0+cu128",
+  "config": "configs/v2_hf_rescaled.yaml",
+  "alpha_1.0": {
+    "images": 1000,
+    "artfid": 146.06394958496094,
+    "lpips_c": 0.5321498035937547,
+    "style_dist": 1.6435207383810193
+  },
+  "alpha_1.4": {
+    "images": 1000,
+    "artfid": 140.51910400390625,
+    "lpips_c": 0.563748532295227,
+    "style_dist": 1.5591717091699828
+  }
+}

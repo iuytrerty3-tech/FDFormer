@@ -1,0 +1,78 @@
+{
+  "pairs": 10,
+  "device": "cpu",
+  "all_tensor_identical": true,
+  "all_png_identical": true,
+  "rows": [
+    {
+      "pair": "00000.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "ab3ddadb1d3de773"
+    },
+    {
+      "pair": "00100.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "e25c637cb4e91740"
+    },
+    {
+      "pair": "00200.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "9b6b46f1c7906bfc"
+    },
+    {
+      "pair": "00300.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "336b7f9baf4bfde4"
+    },
+    {
+      "pair": "00400.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "46156da77bd4a4fe"
+    },
+    {
+      "pair": "00500.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "2c73c206dce0c067"
+    },
+    {
+      "pair": "00600.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "3a4291d3449c3e6e"
+    },
+    {
+      "pair": "00700.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "36f8f971c309c95f"
+    },
+    {
+      "pair": "00800.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "32f04352ef35fd6b"
+    },
+    {
+      "pair": "00900.png",
+      "tensor_identical": true,
+      "max_abs_tensor_diff": 0.0,
+      "png_identical": true,
+      "sha256": "7f8832c22364a568"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "params_M": 19.772,
+  "flops_G": null,
+  "latency_ms": null,
+  "max_res": null,
+  "size": 256,
+  "note": "run through the plain-PyTorch path; latency not comparable"
+}

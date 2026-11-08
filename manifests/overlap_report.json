@@ -1,0 +1,16 @@
+{
+  "coco_train2017_images": 118287,
+  "wikiart_images": 82407,
+  "wikiart_distinct_hashes": 80716,
+  "benchmark": {
+    "pairs": 1000,
+    "content_from_training_collection": 1000,
+    "style_found_in_training_collection": 1000
+  },
+  "validation": {
+    "pairs": 500,
+    "content_from_training_collection": 500,
+    "style_found_in_training_collection": 500,
+    "style_overlap_with_benchmark": 0
+  }
+}

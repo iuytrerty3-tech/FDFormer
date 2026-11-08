@@ -1,0 +1,38 @@
+{
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+    "total_MiB": 8192,
+    "used_MiB": 98,
+    "driver": "591.44"
+  },
+  "sysmem_fallback_policy": "Driver Default (read from the NVIDIA Control Panel by the operator on 2026-11-03, after the runs; setting not changed)",
+  "limit_MB": 8420.06528,
+  "methods": {
+    "fdformer_forward": {
+      "exit_code": 0,
+      "wddm_peak": {
+        "dedicated_MB": 7537.696768,
+        "shared_MB": 272.62976
+      },
+      "wddm_shared_at_start_MB": 52.4288,
+      "sweep": {
+        "sizes": [
+          1792
+        ],
+        "latency_ms": [
+          2750.97
+        ],
+        "peak_mem_MB": [
+          6598.5
+        ]
+      },
+      "peaks_allocated_reserved_MB": [
+        [
+          6598.483456,
+          8264.876032
+        ]
+      ]
+    }
+  },
+  "time": "Tue Nov  3 13:59:34 2026"
+}

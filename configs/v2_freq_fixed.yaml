@@ -1,0 +1,38 @@
+# Decomposition ablation: the SAME Gaussian low-pass as the main model, held
+# frozen instead of being learned. Every other setting matches v2_hf_rescaled.yaml,
+# so the comparison isolates whether adapting the cut-off to the data matters.
+
+data:
+  content_dir: ./datasets/coco/train2017
+  style_dir:   ./datasets/wikiart
+  img_size: 224
+  num_workers: 0
+
+model:
+  embed_dim: 256
+  heads: 4
+  pretrained_vgg: true
+  freq_decouple: true
+  freq_mode: fixed
+  use_gate: true
+
+loss:
+  w_content: 1.0
+  w_style: 3.0
+  w_identity1: 10.0
+  w_identity2: 1.0
+  w_hf_stroke: 2.0e+5   # was 1.0 (inactive); see rationale above
+  use_identity: true
+
+train:
+  batch_size: 1
+  accum_steps: 4
+  lr: 1.0e-4
+  lr_decay: 5.0e-5
+  max_iters: 80000
+  amp: true
+  clip_grad_norm: 1.0
+  log_every: 100
+  sample_every: 1000
+  ckpt_every: 5000
+  save_dir: ./experiments/fdformer_v2_freq_fixed

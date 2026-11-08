@@ -1,0 +1,50 @@
+# v4: the coefficients are sampled during training AND the style and stroke
+# targets move with them.
+#
+# Rationale. v3 sampled the coefficients and failed: measured over 300 pairs it
+# left alpha_high exactly as inert (stroke-energy span 0.038 against 0.039) and
+# collapsed alpha_low instead (1.301 -> 0.062), because the style and identity
+# terms ask for the same fixed target whatever the coefficient is, so ignoring
+# the coefficients minimises them just as well as honouring them. This run keeps
+# the sampling and additionally interpolates the style and stroke targets between
+# the content's statistics and the style's, at the fraction each coefficient
+# asks for, so that faithful rendering is the only way to lower the loss.
+
+data:
+  content_dir: ./datasets/coco/train2017
+  style_dir:   ./datasets/wikiart
+  img_size: 224
+  num_workers: 0
+
+model:
+  embed_dim: 256
+  heads: 4
+  pretrained_vgg: true
+  freq_decouple: true
+  use_gate: true
+
+loss:
+  w_content: 1.0
+  w_style: 3.0
+  w_identity1: 10.0
+  w_identity2: 1.0
+  w_hf_stroke: 2.0e+5   # was 1.0 (inactive); see rationale above
+  use_identity: true
+  alpha_dependent_targets: true   # the single change from v3
+
+train:
+  batch_size: 1
+  accum_steps: 4
+  lr: 1.0e-4
+  lr_decay: 5.0e-5
+  max_iters: 80000
+  amp: true
+  clip_grad_norm: 1.0
+  log_every: 100
+  sample_every: 1000
+  ckpt_every: 5000
+  alpha_sampling:
+    enabled: true
+    range: [0.25, 1.75]
+    nominal_prob: 0.25
+  save_dir: ./experiments/fdformer_v4_objective

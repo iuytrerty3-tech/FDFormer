@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# checkpoints and training samples
+experiments/
+*.pth
+*.pth.tar
+*.ckpt
+
+# data (MS-COCO / WikiArt) and stylised outputs
+datasets/
+eval/
+out/
+logs/
+err.txt
+
+# environments
+.venv/
+venv/
+.DS_Store

@@ -1,0 +1,11 @@
+# Core (install the GPU build that matches your laptop's CUDA from pytorch.org)
+torch>=2.0
+torchvision>=0.15
+# Utilities
+numpy
+pillow
+pyyaml
+tqdm
+# Evaluation (real, published metric: Wright & Ommer, GCPR 2022)
+art-fid
+lpips

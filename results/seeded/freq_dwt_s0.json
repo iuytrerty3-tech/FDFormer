@@ -1,0 +1,20 @@
+{
+  "variant": "freq_dwt",
+  "seed": 0,
+  "iters": 80000,
+  "train_seconds": 22337.975647449493,
+  "torch": "2.11.0+cu128",
+  "config": "configs/v2_freq_dwt.yaml",
+  "alpha_1.0": {
+    "images": 1000,
+    "artfid": 145.1599884033203,
+    "lpips_c": 0.5315126470476389,
+    "style_dist": 1.6474213091558194
+  },
+  "alpha_1.4": {
+    "images": 1000,
+    "artfid": 140.28469848632812,
+    "lpips_c": 0.5623739230930805,
+    "style_dist": 1.5840470491562737
+  }
+}
